@@ -4,6 +4,7 @@
         <meta charset="UTF-8"> 
         <meta name=" viewport" content="width=device-width" >
         <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,77 +44,103 @@
     <section>
         <div class="container"> 
 <ul class="port-buttons"> 
-    <li> <button class="portfolio-button" type="button">Усі</button></li> 
-    <li> <button class="portfolio-button" type="button">Веб-сайти</button></li> 
-    <li> <button class="portfolio-button" type="button">Додатки</button></li> 
-    <li> <button class="portfolio-button" type="button">Дизайн</button></li> 
-    <li> <button class="portfolio-button" type="button">Маркетинг</button></li> 
+    <li class="pb"> <button class="portfolio-button" type="button">Усі</button></li> 
+    <li class="pb"> <button class="portfolio-button" type="button">Веб-сайти</button></li> 
+    <li class="pb"> <button class="portfolio-button" type="button">Додатки</button></li> 
+    <li class="pb"> <button class="portfolio-button" type="button">Дизайн</button></li> 
+    <li class="pb"> <button class="portfolio-button" type="button">Маркетинг</button></li> 
 </ul>
 </div>
 <!-- Текстові картки -->
 <div class="container">
-<ul class="card-set"> 
-<li class="cselement"> 
-    <img src="./images/techno.jpg"  alt="Технокряк" width="370"> 
-    <h2 class="card-title"> Технокряк </h2>
-    <p> Веб-сайт </p>
-    <p class="card-description"> Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-</li>
+
+    <ul class="card-set"> 
+         <li class="cselement"> 
+             <img class="img" src="./images/techno.jpg"  alt="Технокряк" width="370"> 
+                 <div class="cardsubtitles"> 
+                     <h2 class="card-title"> Технокряк </h2>
+                     <p class="card-area"> Веб-сайт </p>
+                 </div>
+         </li>
+
+
 
 <li class="cselement"> 
-    <img src="./images/poster.jpg"  alt="" width="370"> 
+    <img class="img" src="./images/poster.jpg"  alt="" width="370"> 
+    <div class="cardsubtitles"> 
     <h2 class="card-title">Постер New Orlean vs Golden Star</h2>
     <p class="card-area"> Дизайн </p>
-    <p class="card-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi accusamus at assumenda fugit laudantium minima quos officia vel odio obcaecati labore id, exercitationem beatae modi neque quis! Laudantium, explicabo minus?</p>
+   
+    </div>
+
 </li>
 
 <li class="cselement"> 
-    <img src="./images/seafood.jpg"  alt="" width="370"> 
+    <img class="img" src="./images/seafood.jpg"  alt="" width="370"> 
+   <div class="cardsubtitles"> 
     <h2 class="card-title"> Ресторан Seafood</h2>
     <p class="card-area">Додаток </p>
-    <p class="card-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi accusamus at assumenda fugit laudantium minima quos officia vel odio obcaecati labore id, exercitationem beatae modi neque quis! Laudantium, explicabo minus?</p>
+   
+
+</div>
 </li>
 
 <li class="cselement"> 
-    <img src="./images/headphones.jpg"  alt="" width="370"> 
+    <img class="img" src="./images/headphones.jpg"  alt="" width="370"> 
+    <div class="cardsubtitles"> 
     <h2 class="card-title">Проєкт Prime </h2>
     <p class="card-area">Маркетинг </p>
-    <p class="card-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi accusamus at assumenda fugit laudantium minima quos officia vel odio obcaecati labore id, exercitationem beatae modi neque quis! Laudantium, explicabo minus?</p>
+</div>
 </li>
 
 <li class="cselement"> 
-    <img src="./images/boxes.jpg"  alt="" width="370"> 
+    <img class="img" src="./images/boxes.jpg"  alt="" width="370"> 
+    <div class="cardsubtitles"> 
     <h2 class="card-title"> Проєкт Boxes</h2>
     <p class="card-area">Додаток </p>
-    <p class="card-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi accusamus at assumenda fugit laudantium minima quos officia vel odio obcaecati labore id, exercitationem beatae modi neque quis! Laudantium, explicabo minus?</p>
+   
+
+</div>
 </li>
 
 <li class="cselement"> 
-    <img src=" ./images/monitor.jpg"  alt="" width="370"> 
+    <img class="img" src=" ./images/monitor.jpg"  alt="" width="370"> 
+    <div class="cardsubtitles"> 
     <h2 class="card-title">Inspiration has no Borders </h2>
     <p class="card-area"> Веб-сайт</p>
-    <p class="card-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi accusamus at assumenda fugit laudantium minima quos officia vel odio obcaecati labore id, exercitationem beatae modi neque quis! Laudantium, explicabo minus?</p>
+ 
+
+</div>
 </li>
 
 <li class="cselement"> 
-    <img src="./images/journal.jpg"  alt="" width="370"> 
+    <img  class="img" src="./images/journal.jpg"  alt="" width="370"> 
+    <div class="cardsubtitles"> 
     <h2 class="card-title">Видання Limited Edition</h2>
     <p class="card-area">Дизайн</p>
-    <p class="card-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi accusamus at assumenda fugit laudantium minima quos officia vel odio obcaecati labore id, exercitationem beatae modi neque quis! Laudantium, explicabo minus?</p>
+  
+
+</div>
 </li>
 
 <li class="cselement"> 
-    <img src="./images/lab.jpg"  alt="" width="370"> 
+    <img class="img" src="./images/lab.jpg"  alt="" width="370"> 
+    <div class="cardsubtitles"> 
     <h2 class="card-title">Проєкт LAB</h2>
     <p class="card-area">Маркетинг</p>
-    <p class="card-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi accusamus at assumenda fugit laudantium minima quos officia vel odio obcaecati labore id, exercitationem beatae modi neque quis! Laudantium, explicabo minus?</p>
+   
+    </div>
+
 </li>
 
 <li class="cselement"> 
-    <img src="./images/mactyping.jpg"  alt="" width="370"> 
+    <img class="img" src="./images/mactyping.jpg"  alt="" width="370"> 
+    <div class="cardsubtitles"> 
     <h2 class="card-title">Growing Business </h2>
     <p class="card-area">Додаток</p>
-    <p class="card-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi accusamus at assumenda fugit laudantium minima quos officia vel odio obcaecati labore id, exercitationem beatae modi neque quis! Laudantium, explicabo minus?</p>
+  
+
+</div>
 </li>
 
 </ul>
