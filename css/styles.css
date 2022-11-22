@@ -216,6 +216,7 @@ justify-content: center;
 .allfeatures {
     display: flex;
     flex-direction: row;
+    
 
     margin-right: auto;
     margin-left: auto;
@@ -231,6 +232,9 @@ justify-content: center;
     margin-right: 30px;
 }
 
+.all-features {
+    width: 270px;
+}
 
 .feature-list, .work {
     background-color: var(--white);
@@ -267,7 +271,7 @@ margin-bottom: 0;
 .pictures {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    gap: 30px;
 }
 
 .work .work-title, .team-title {
@@ -290,8 +294,8 @@ letter-spacing: 0.03em;
 .flex-container > ul{
     display: flex;
     flex-direction: row;
-   margin-left: 15px;
-   margin-right: 15px;
+   
+
    
 
 }
@@ -447,7 +451,7 @@ padding-right: 22px;
     display: flex;
     justify-content: center;
     /* margin-left: 8px; */
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     
 }
 
