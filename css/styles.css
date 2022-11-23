@@ -362,7 +362,7 @@ margin-top: 0;
     padding: 60px 0;
 }
 
-.contact-li {
+.contact-li:not(:last-child) {
     margin-bottom: 9px;
 }
 
@@ -428,6 +428,10 @@ padding-left: 22px;
 padding-right: 22px;
 }
 
+.prt-btn {
+    padding-bottom: 0;
+}
+
 
 
 .pb:not(:last-child) {
@@ -453,6 +457,10 @@ padding-right: 22px;
     /* margin-left: 8px; */
     margin-bottom: 50px;
     
+}
+
+.sect-card {
+padding-top: 0;
 }
 
 .card-set {
